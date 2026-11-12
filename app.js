@@ -6,7 +6,7 @@
 const APP_CONFIG = {
   APP_NAME: "TEAM WORK MANAGEMENT",
   // Đổi thành URL Web App GAS của bạn hoặc giữ đường dẫn proxy "/api/proxy"
-  GAS_API_URL: "https://script.google.com/macros/s/AKfycbwYOUR_GAS_ID_HERE/exec",
+  GAS_API_URL: "https://script.google.com/macros/s/AKfycbyxmn7SwdUM5kYF5vNFqmIYVp1BSlPz5CCUwkGFcjId0sqBkpuGqqaU-MlOj5HiQwUx7w/exec",
   APP_VERSION: "1.0.0",
   USE_PROXY: false // Đặt true nếu host trên Vercel có api/proxy.js
 };
