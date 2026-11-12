@@ -55,22 +55,5 @@
   <script src="app.js"></script>
 </body>
 </html>
-```
-
----
-
-# PHẦN 7: CẤU HÌNH VERCEL PROXY (`vercel.json` & `api/proxy.js`)
-
-Khi triển khai trên Vercel, 2 file này loại bỏ 100% rào cản CORS & Redirect 302 của Apps Script:
-
-### 1. `vercel.json`
-```json
-{
-  "version": 2,
-  "rewrites": [
-    {
-      "source": "/api/proxy",
-      "destination": "/api/proxy"
-    }
   ]
 }
